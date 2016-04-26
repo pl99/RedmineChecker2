@@ -1,0 +1,24 @@
+{
+  "redmine_url": "http://redmine.advantum.ru",
+  "redmine_login": "reminder",
+  "redmine_password": "password",
+  "redmine_path":"/issues.json",
+  "mailer": {
+    "smtphost": "mail.google.com",
+    "from": "Redmine Checker <redmine@reminder.ru>",
+    "login": "redmine@reminder.ru",
+    "password": "",
+    "smtpport": "25"
+  },
+   "projects":
+ [
+	{"query_parm": {"project_id": 122,"priority_id": 3,"tracker_id": 1,"limit": 100, "status_id":1},
+      "time_delay": 24, 
+      "address": ["reader@advantum.ru"]
+    },
+	{"query_parm": {"project_id": 122,"priority_id": 5,"tracker_id": 1,"limit": 100, "status_id":1},
+      "time_delay": 24, 
+      "address": ["reader@advantum.ru"]
+    }
+ ]
+}
